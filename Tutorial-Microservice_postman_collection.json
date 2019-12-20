@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "dd73e775-ecfd-4989-b79b-0ba38f69f25e",
+		"name": "Microservice",
+		"description": "Devdojo Tutorial Spring Boot Microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/admin/course",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzaW11cyIsImV4cCI6MTU1MjY1Mjg5M30.MBcpx0kbhrRyoAGwnQwjiZTYInKzwy-xKaVof-dnreP4wfsX1gnbGwHKIqVoZupuC8jeRFZt9iG5vrmIX2NKrQ",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8082/v1/admin/course"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gateway/course/v1/admin/course",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Y9SZgukR-VG8hFNhjH_Ypg.ndY01gxmoIU9gpBE5oV70YsVIIBN0voSFCsVDCOuqMBtHvOeSlg-HUZEIlCIaH7CaubbfPcDezEOc8kIJ1TBdkffFN7YMLCVDZRuR0n0nxmK9jMbO6cFALaiLCRfYn_B83_Qj83c97piVtm20etJvTBYEvywp0hOWXgtwqae4kDxy1a75In-SCPc5UJfSFUoh6Xu2bQpkM93MtC1BcOdFDyt_LVexWslB7h1PBhoLoJ0Azgvm4w1b8N7C136uM7FjFVJG2Jv9L84PgfVMy5evhC-cu8ZSKJCZmN0MFiOrIHMFfKed2rNo2k_JofF9Xtycvwi-sDO5nRmJRnlcqMpLJunPDgdVcVuR0gi-0Ui6ypPyXTbkgAjCm5I2a2l92LLyvT0N8Uj3t3EV7ejymnCYWosgnipy5PSiJeGdxR6tyJTBKK5_0mFTv9HiaXcXOKmxzVs3om3KpgO0uLoyoAZF3YNPgSDE6FuNOPTBOTKpBcDk7aoGMyPBPbh0TrVyFLIW4huWuhRNF3Bfy2Bd-EgW2LYp00JQEnsSh1Mx5x9EqZcDobpanDvKW_SXh7KpObmQ-DqS6BZEAEenEdw0PDw0Weqo7GZGEBBGVcuajHK-8_StQKu3x3lL0UNQOs5XdDylbKHGP7MLzLoLu0qz8tY761IGgtZO2gBjUfNWJdmsl13gxxVS9C_ED3eYZMCFx3K454xl6eGrJO5OJ3mhAXxR_cbq2oY11PGi5Q1VidcR9QIL1G4YFDoFQ_vj8kcI345F9Ex-VqUwaIfJkr5aaRjGcXkykCa67rO63l8oF5MTrNgihK6iICP6O-GhrsDKdW9oyWCqmxlP5ceVQzPtl8YpZ-nRQ2m5xoZnrfG_d-4ZsztKJTz5C8zyC2RktGGimqIt7TCt9vSwOqjjofb6lnRhLAc1eoPLVkMFh4n2xxfq1_l8z-FIXQHnE-g0tq_75uf3lNbLMH1IolxvBSzgNr-VIYaB5wg0LrJ3vCsVcBgwJDWvl9IXjLMSzMqWC4nw0XwAugMGNjXYvd7HnjgF5V3Rpq2P4ySFWcalaS_gwZAAcvDLfAbdqtgfZyCTQWDZgzSSXCuHnKYLF6CCNKzmX7WMwFzJw0eIMeAMm5vGWJ6uD5huM2RbQqDCJOFQwK-OQ2aMa_SPuKpr4MRz6Kc_1OwvR9fBIExRmLDxi0pJtSKNxleAJQ1BlIBeQeiq4a8evL6HIDSiK4ysYzZAdUvM-0o6a7tq4KxaozbIN4eIZ9dfRU8fIQKG02rlENntcZFifN3DA8SwOTfyJtcq1O_FPTMGWCi6Rzml3cp2Jl4m61mLk4GBi-mDj6lnBULf6inyZBifDY6adKQIZZrCE8fF2bgdONbrR36GWF5LJbbE7ak3qW5NHF-Ju2HMFjtnNL97lt6gcfy_bJ_qzOci9ngSBNuAyPjYPmirJs135cV329SCZuhgR0txZZ7gKQlg-9Vlb-trvAweluJxpuWJ9tSVbNmoA.ow4GAMSEPW-ZHLwTQGKcWA",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/gateway/course/v1/admin/course"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gateway/auth/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzaW11cyIsImV4cCI6MTU1MjY1Mjg5M30.MBcpx0kbhrRyoAGwnQwjiZTYInKzwy-xKaVof-dnreP4wfsX1gnbGwHKIqVoZupuC8jeRFZt9iG5vrmIX2NKrQ",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"well\",\"password\":\"devdojo\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/gateway/auth/login?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateway",
+						"auth",
+						"login"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..y7kD5etLDSS0ORm7zJLr6Q.p8OgWzXjPPvxvj9SYiHeyx58fjbh_o3kAKnVeV6_ENDGcPjvITCQxuxwG-CNAua7-qT07LoiKxY-_Yue6pvhfaT76lm0GrDYwWPFYums0tUCBG9KBVrR5GUYlJ3-LCgzPvqij1L8PFnDxynjxRJ7Z_bBjfWusfhqgBZTXzK97P2BdWEg6QHc48gA-sqxwh1cfDuy7DU0DacZli8Jg3Xuaqs5__JKaTPXlCYR0EVKYenqWprqQ7A7-5tv7dkKtciIa4-mUEQ8PGA-iHZv8BfBq4h6OEqliyt1cA3lcN-dw5POMG67_J7V-YyW0mcpB2PfD83QL2B1oXTI7y7E3_zGdtTTne2RPgmVqKeXm_2PQtgAPj5zLdxBbPscXEu7dDqmhnm2CfEMvewm_0i46cSpmWwWdSAn61EdspxujqNBZfcyfnAs2NAEHJHHI-kcrVFd3akDBix8CCkEKUkRnnRKNC-XqzA44AEv0GORqwH5d8kSNicZw4KXoAuRoicMIDkpcfWBhPnHSTpSEQxUloVKYcdwzJDsmw8ZPMNu5qqw1Y01yGD_qnE9eqUABPDNfk5YiC3Vwq-qdaNNyCXiEvJ-xKVF8EDEk7OldEtd4Om6CWvDdIXKYUQ7vAAsPZPPmLUavk_n69soydgvw6_qEPHtm3s2cUQR7TTt-SOehwdAsfBNk_uOavH6oL_utAGN3cQn20yiWKWDQTm_E0TyN_9E6wpo_b4f4hd5yuT2Npw73cryhag9x3j0Ggt60h284EEhq8CXRZyWXua1NOwtvoDrFxJh6sQEu4HBM2MydJ2HuJTpCVTm8jUq06vpoNCXC0fQuxHUaCT3nEQyxBx_C7tsx4RjnY8cKdAwvo9K2oSnDOnNp8ZRpjnnNF7WymVR9n_opsUtXrgUssoYtVPutZKLCUQCkgOVgWjZDHOO-MIXT2-7imjCLDoYUGSI24XC9awQGOBa9o4r2hGs4-7xorE9oTei6iPex6GUqpIiXJyh1xODizv6BXs0h4EmbmC3sd7r9Qxejy5uNDrlrBNf1Ue8bw0d-8urwnLO-EdIqn-4Fu-kjM_7dAw7kHZgUKAyLJXhq96dCPg4og1u1SjRnyO41fHERlsTNBcHyGN4EhjkVDc_kfTIKCzxQoLmy1KShxzYTwRrmrI80GFVhb6TW4chp415QaVXJkEvHodhCRZDUfTsygmsmQTXgXn86FVbEgt1ra1D0PMAYpYYT1MIGqOqjbE0Z6tSxRbd1H3AHFU575AeYx2XoDGlI2k5FMBXJ6AowyA8NO3rx54Qf3vkyIMmoghxdUSh5WjTuMhrCpW-X4VIsr_G49pyDyltZ7PZMebgo6RiNPC6r9oaq7VB00FJJlQuBlZsmqc-FYXMWMLWHf2SrQH9lnAJUdIi9NQqHLYTqFX6nS5QY7PvUj1xRa9gN5qXLR3MbSFY6uPXd0Hf59s3NVjjm3Czft71GFCrSj8vnYr7tyAZbUEvLefwbdIpEA.4dC2dBZOWOqx1Ape2wsFWw",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
