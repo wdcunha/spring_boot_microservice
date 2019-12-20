@@ -19,4 +19,5 @@
 
 > When running it for the first time, it is necessary to create the database, what was done using the Database tool from intelliJ
 
+* Start running services by Discovery, after Gateway, Auth and then Course, to avoid errors like service cannot execute request 
 
